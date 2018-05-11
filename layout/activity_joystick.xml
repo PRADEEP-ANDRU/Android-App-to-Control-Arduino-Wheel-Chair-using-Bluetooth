@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pradeep.arduinorcb.joystick">
+
+    <Button
+        android:id="@+id/bd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:text="@string/bf"
+        tools:text="D" />
+
+    <Button
+        android:id="@+id/bl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bd"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="37dp"
+        android:layout_toLeftOf="@+id/bd"
+        android:layout_toStartOf="@+id/bd"
+        android:text="@string/bl" />
+
+    <Button
+        android:id="@+id/brt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/bd"
+        android:layout_toRightOf="@+id/bd"
+        android:text="@string/brt" />
+
+    <Button
+        android:id="@+id/br"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/bl"
+        android:layout_toRightOf="@+id/bl"
+        android:text="@string/br" />
+
+    <Button
+        android:id="@+id/bp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bl"
+        android:layout_toLeftOf="@+id/brt"
+        android:layout_toStartOf="@+id/brt"
+        android:text="@string/bp" />
+
+    <Button
+        android:id="@+id/bh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bl"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bl"
+        android:layout_marginBottom="65dp"
+        android:text="@string/bh" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/brt"
+        android:layout_alignStart="@+id/brt"
+        android:layout_alignTop="@+id/bh"
+        android:text="@string/bt" />
+</RelativeLayout>
+
